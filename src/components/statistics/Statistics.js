@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from 'components/statistics/Statistics.module.css';
 
+
 const Statistics = ({good, neutral, bad, total, positivePercentage}) => (
     <>
         <p className={styles.p}>Good: {good}</p>
@@ -19,5 +20,6 @@ Statistics.propTypes = {
     total: PropTypes.number.isRequired,
     positivePercentage: PropTypes.number.isRequired
 }
+
 
 export default Statistics;

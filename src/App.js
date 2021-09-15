@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-// import FeedbackOptions from 'components/feedback/feedback';
 import FeedbackOptions from 'components/feedbackOptions/FeedbackOptions';
 import Section from 'components/section/Section';
 import Statistics from 'components/statistics/Statistics';
@@ -57,5 +56,6 @@ class App extends Component {
     );
   }
 };
+
 
 export default App;

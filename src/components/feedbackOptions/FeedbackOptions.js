@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from 'components/feedbackOptions/FeedbackOptions.module.css';
-// import { option } from 'yargs';
-// import { optionalCallExpression } from '@babel/types';
+
 
 const FeedbackOptions = ({options, onLeaveFeedback}) => (
     <>

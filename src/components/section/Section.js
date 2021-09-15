@@ -14,4 +14,5 @@ Section.propType = {
     title: PropTypes.string.isRequired
 };
 
+
 export default Section;
